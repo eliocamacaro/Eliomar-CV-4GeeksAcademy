@@ -1,0 +1,145 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Eliomar
+    last_name: Camacaro
+    
+    # Define yourself in 4-5 words
+    motto: I enjoy the process
+    
+    # Focus
+    focus: Solve any problem
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I look to develop my career in an organization that can maximize the value of my technical and soft skills. As a natural problem solver, I am highly interested in process improvement and optimization to help the company achieve its targets.
+
+      -	Positive attitude towards work and willingness to complete tasks.
+      -	Ability to build strong relationships with internal and external customers.
+      -	Excellent attention to detail
+      -	Team player and fast learner.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent.fmad22-1.fna.fbcdn.net/v/t39.30808-6/347382068_229545736469815_2598680422873469635_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zsmTpr-emg0AX837od-&_nc_ht=scontent.fmad22-1.fna&oh=00_AfDb6xYu5JHvlsSd1S2ioVJ_1rVXaHJNAdf3IN4N3xAw_g&oe=65678A81
+
+    # Contact Information
+    linkedin: https://www.linkedin.com/in/eliomar-camacaro-30/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Rugby
+
+      - item: Travelling
+
+
+# Your previous education
+education:
+    - degree: Data Science
+      university: 4geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023-2024
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Electronics and telecom. Engineering
+      university: URBE (Rafael Belloso University)
+      # optional
+      university_logo: https://cdn.urbe.edu/portal-urbe/images/logos/urbe-blanco.svg
+      time: 2011 - 2015
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+Relevant Experiences:
+    - role: Network Engineer
+      time: 2020 - 2023
+      company: Huawei Technologies LLC (Spain)
+      # optional
+      company_logo: https://www.telepolis.pl/images/2020/11/Huawei-logo.jpg
+      details: |
+        Huawei is a leading global provider of Information and Communications Technology (ICT) solutions.
+        My main duties on this role:
+          - Technical support for IP Delivery projects
+          - Network design validation
+          - Technical Migrations (Service Test)
+          - Troubleshooting and support in case of rollback
+          - Network incident report
+        - Network planning migration for 4G/5G Technologies
+
+    - role: Service Desk Technician
+      time: 2019
+      company: BT Spain
+      # optional
+      company_logo: https://www.hispasat.com/imagenes/banda/BTEspana.jpg
+      details: |
+       British Telecom (BT) is a multinational organization that provides network, cloud and security services around the world.
+      Main duties:
+        - Active Directory management
+        - Troubleshooting related to Windows Server
+        - Queries in databases (Oracle)
+        - Monitoring of Online Sales Services
+        - Manage requests to the technical service for resolution of Hardware failures
+
+    - role: Support Engineer
+      time: 2016 - 2017
+      company: Bessier S.A. de C.V. (Mexico)
+      # optional
+      company_logo: https://scontent.fmad22-1.fna.fbcdn.net/v/t39.30808-6/305034111_489089796561664_5098850498323248548_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1F1tg91_r5cAX_i61eV&_nc_ht=scontent.fmad22-1.fna&oh=00_AfAsNrAXgXQXTPAwdX4Jx9uhjdNddWIkxeiFnnVbO_-94w&oe=65693C79
+      details: It is a Mexican IT company focused on telecommunications solutions and communication systems
+          - Manage email servers for corporate clients.
+          - Provide maintenance and repair databases for billing systems.
+          - Customer service and monitoring.
+         - Handling and documentation of support tickets.
+          - Prepare software management guides for users.
+
+# Your project portfolio
+projects:
+    intro: >
+      Still working on it
+
+    assignments:
+      - Still working on it
+
+skills:
+    Toolset:
+      - name: 
+        level: 
